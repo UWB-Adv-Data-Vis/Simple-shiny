@@ -82,7 +82,7 @@ Update the setup chunk to load packages as shown below.
 ```
 {r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-pacman::p_load(tidyverse, stringr)
+pacman::p_load(tidyverse, stringr, shiny, knitr)
 ```
 
 You may not have these packages installed, so you will want to use the `install.package()` for the missing data set in the *console* to get the packages needed for this assignment.
